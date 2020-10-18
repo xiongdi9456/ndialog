@@ -4,6 +4,7 @@
 import 'dart:async';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 // import 'package:simple_animations/simple_animations.dart';
 
 ///NDialog widget
@@ -299,7 +300,7 @@ class DialogBackground extends StatelessWidget {
           return;
         },
         child: Stack(
-          //overflow: Overflow.clip,
+          overflow: Overflow.clip,
           clipBehavior: Clip.antiAlias,
           alignment: Alignment.center,
           children: <Widget>[
