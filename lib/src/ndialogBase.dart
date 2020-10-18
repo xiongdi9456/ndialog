@@ -300,7 +300,7 @@ class DialogBackground extends StatelessWidget {
           return;
         },
         child: Stack(
-          overflow: Overflow.clip,
+          // overflow: Overflow.clip,
           clipBehavior: Clip.antiAlias,
           alignment: Alignment.center,
           children: <Widget>[
